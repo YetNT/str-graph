@@ -1,0 +1,29 @@
+{
+    "name": "str-graph",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "test": "mocha src/index.test.js",
+        "build": "npx tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YetNT/str-graph.git"
+    },
+    "keywords": [],
+    "author": "YetNT",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/YetNT/str-graph/issues"
+    },
+    "homepage": "https://github.com/YetNT/str-graph#readme",
+    "devDependencies": {
+        "@types/node": "^20.8.5",
+        "typescript": "^5.2.2"
+    }
+}
